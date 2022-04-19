@@ -1,6 +1,6 @@
 {
   "name": "tr-nestjs-clickhouse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NodeJS client for ClickHouse. Send query over HTTP interface.",
   "main": "./lib/index.js",
   "files": [
