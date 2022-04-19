@@ -12,12 +12,12 @@
 
 **Yarn**
 ```bash
-yarn add tr@nestjs-clickhouse
+yarn add tr-nestjs-clickhouse
 ```
 
 **NPM**
 ```bash
-npm install tr@nestjs-clickhouse --save
+npm install tr-nestjs-clickhouse --save
 ```
 
 ### Getting Started
@@ -25,7 +25,7 @@ Let's register the ClickHouseModule in `app.module.ts`
 
 ```typescript
 import { Module } from '@nestjs/common'
-import { ClickHouseModule} from 'tr@nestjs-clickhouse'
+import { ClickHouseModule} from 'tr-nestjs-clickhouse'
 
 @Module({
     imports: [
@@ -63,7 +63,7 @@ export class AppModule {}
 And use in your service
 ```typescript
 import { Injectable } from '@nestjs/common';
-import { ClickHouseRegistry } from 'tr@nestjs-clickhouse';
+import { ClickHouseRegistry } from 'tr-nestjs-clickhouse';
 
 @Injectable()
 export class TestService {
